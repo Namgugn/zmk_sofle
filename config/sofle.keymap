@@ -98,11 +98,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                        &kp KP_NUMLOCK  &kp SLASH        &kp ASTERISK     &kp MINUS        &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                              &kp NUMBER_7    &kp NUMBER_8     &kp N9           &kp PLUS         &kp N0   &kp ENTER
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                            &kp NUMBER_4    &kp N5           &kp NUMBER_6     &kp ENTER        &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &bl BL_TOG    &trans  &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3     &kp ENTER        &trans   &trans
-                          &trans        &trans        &trans        &trans        &trans        &trans  &kp NUMBER_0    &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                 &kp KP_NUMLOCK  &kp SLASH        &kp ASTERISK     &kp MINUS        &trans   &trans
+&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                                       &kp NUMBER_7    &kp NUMBER_8     &kp N9           &kp PLUS         &kp N0   &kp ENTER
+&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                                     &kp NUMBER_4    &kp N5           &kp NUMBER_6     &kp ENTER        &kp DEL  &kp BSPC
+&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &bl BL_TOG    &rgb_ug RGB_TOG  &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3     &kp ENTER        &trans   &trans
+                          &trans        &trans        &trans        &trans        &trans        &trans           &kp NUMBER_0    &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
