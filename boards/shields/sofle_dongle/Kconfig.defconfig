@@ -1,0 +1,27 @@
+if SHIELD_SOFLE_DONGLE
+
+# 키보드 이름 (최대 16자)
+config ZMK_KEYBOARD_NAME
+    default "SOFLE"
+
+# 이 보드는 central(중앙 장치)
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+# 스플릿 모드 사용
+config ZMK_SPLIT
+    default y
+
+# 연결할 주변 장치 수 (스플릿 키보드면 좌/우 2개)
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+# 연결 가능한 총 블루투스 수 (주변장치 2개 + BLE 프로파일 4개 등)
+config BT_MAX_CONN
+    default 6
+
+# 페어링 저장 수 (BT_MAX_CONN과 동일)
+config BT_MAX_PAIRED
+    default 6
+
+endif

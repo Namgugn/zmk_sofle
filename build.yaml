@@ -22,3 +22,9 @@ include:
     shield: sofle_left
   - board: nice_nano_v2
     shield: sofle_right
+  - board: nice_nano_v2
+    shield: setting_reset
+  - board: seeduino_xiao_ble
+    shield: sofle_dongle
+  - board: seeduino_xiao_ble
+    shield: setting_reset
